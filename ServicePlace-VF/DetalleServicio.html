@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Place</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Codigo personalizado-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+
+    <link rel="icon" href="img/Logo-fondo-full.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="color-bg-sp2">
+    <!-------------------------------------------------------------------------------------------------------------------------------------->
+    <!--HEADER-->
+    <header class="sticky-top h-20">
+        <nav class="row mx-0  navbar navbar-expand-md color-bg-sp color-sp3">
+
+            <div class="container-fluid container-xl px-0">
+
+
+                <!-- Login -->
+                <form class="form-inline my-lg-0 d-md-none ml-3">
+                    <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                </form>
+
+                <!-- Logo y nombre -->
+                <a class="navbar-brand mx-2 color-sp3" href="index.html">
+                    <img src="img/Logo-sin-full.png" width="30" height="30" alt=""> Service Place
+                </a>
+
+                <!-- Menú desplegable -->
+                <button class="navbar-toggler navbar-dark color-btn-sp2 navbar-toggler-left mr-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ol class="navbar-nav w-100 ml-3">
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="contactenos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color-sp3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categorias
+                    </a>
+                            <div class="dropdown-menu color-bg-sp color-border-sp" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#foto">Fotografos</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#catering">Catering</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#dj">Djs</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#wedding">Organización de eventos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-auto mr-2 d-none d-md-block">
+                            <form class="form-inline my-lg-0 ">
+                                <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                            </form>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------->
+    <!--DETALLE DE SERVICIO-->
+    <!--Breadcrum-->
+    <div class="container">
+        <ul class="breadcrumb color-bg-sp2">
+            <li><a class="color-sp" href="index.html">Home</a></li>
+            <li><a class="color-sp" href="galeriadeservicio.html">Servicios</a></li>
+            <li class="color-sp">Detalle</li>
+        </ul>
+        <div class="container-fluid mb-3 text-center">                
+            <span class="title-sp text-center">Sebastiao Salgado</SPAN>
+        </div>
+        <div class="container">
+            <!--Primer fila-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="cont-portada">
+                            <img src="img/Salgado2.jpg" class="card-img-top img-fluid" alt="logo-ph">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sebastian Salgado</h5>
+                            <p class="card-text">Si buscan fotografías con alma y que recojan cada uno de los sentimientos vividos en su casamiento, Sebastian Salgado es la alternativa que les brindará esto y mucho más. Elegancia, emotividad y compromiso son algunas de las
+                                cualidades que caracterizan el trabajo de este profesional de la imagen. Mi prioridad es entregar un trabajo lleno de detalles que retracten ese momento especial que tanto se busca guardar. Tenemos precios acorde para cada
+                                ocasion, solo indicanos lo que buscas y te armamos el paquete ideal</p>
+                        </div>
+                        <a href="galeriaImagenfoto.html">
+                            <button type="button" class="btn btn-secondary cta color-btn-sp btn-lg btn-block">Galeria de imagenes</button></a>
+                    </div>
+                    <!--Fin Card-->
+                </div>
+                <!--Fin Col-->
+                <div class="col-12 col-md-12 mt-3 shadow-lg p-4 mb-5  rounded">
+                    <h5 class=" my-2 "> <em>Comentarios</em></h5>
+                    <!--Caja para comentar-->
+                    <div class="form-group col-12">
+                        <label for="comment ">Dejanos tu opinion:</label>
+                        <textarea class="form-control" rows="5 " id="comment "></textarea>
+                    </div>
+                    <button type="button " class="cta commentary color-btn-sp btn btn-secondary btn-lg ">Comentar</button>
+                </div>
+
+                <div class="col-12 mt-4 ">
+                    <!--Lista de Comentarios-->
+                    <div class="cont-coment text-center ">
+                        <!---->
+                        <div class="media ">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded mr-3 cont-avatar rounded-pill ">
+                                <img src="img/avatar4.jpg " class="mr-3 img-fluid rounded-pill " alt="img-comment "></div>
+
+                            <div class="media-body shadow-lg p-3 mb-5 bg-white rounded talk-bubble tri-right left-top ">
+                                <h5 class="mt-0 text-left ">Elvio Salcedo says:</h5>
+                                <p class="p-3 ">Gran trabajo! Totalmente satisfecho. He contratado sus servicios para la boda mi hermana y fue un lujo. Todas las fotos en alta calidad y entregado en tiempo y forma. 100%recomendable. Muy bueno! Cumplio con los requisitos
+                                    que pedi y no hubieron problemas en ningun momento
+                                </p>
+
+                                <p class="card-text text-right "><small class="text-muted ">Hace 3 minutos</small></p>
+                                <div class="text-right "><i class="fa fa-heart p-2 "></i> <i class="fa fa-reply p-2 "></i></div>
+                            </div>
+
+                        </div>
+                        <!---->
+                        <div class="media ">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded mr-3 cont-avatar rounded-pill ">
+                                <img src="img/avatar6.jpg " class="mr-3 img-fluid rounded-pill " alt="img-comment "></div>
+
+                            <div class="media-body shadow-lg p-3 mb-5 bg-white rounded talk-bubble tri-right left-top ">
+                                <h5 class="mt-0 text-left ">Dario Constantini says:</h5>
+                                <p class="p-3 ">Gran trabajo! Totalmente satisfecho. He contratado sus servicios para la boda mi hermana y fue un lujo. Todas las fotos en alta calidad y entregado en tiempo y forma. 100%recomendable. Muy bueno! Cumplio con los requisitos
+                                    que pedi y no hubieron problemas en ningun momento</p>
+
+                                <p class="card-text text-right "><small class="text-muted ">Hace 1 hora</small></p>
+                                <div class="text-right "><i class="fa fa-heart p-2 "></i> <i class="fa fa-reply p-2 "></i></div>
+                            </div>
+
+                        </div>
+                        <!---->
+                        <div class="media ">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded mr-3 cont-avatar rounded-pill ">
+                                <img src="img/avatar4.jpg " class="mr-3 img-fluid rounded-pill " alt="img-comment "></div>
+
+                            <div class="media-body shadow-lg p-3 mb-5 bg-white rounded talk-bubble tri-right left-top ">
+                                <h5 class="mt-0 text-left ">Javier Nougues says:</h5>
+                                <p class="p-3 ">
+                                    Gran trabajo! Totalmente satisfecho. He contratado sus servicios para la boda mi hermana y fue un lujo. Todas las fotos en alta calidad y entregado en tiempo y forma. 100%recomendable. Muy bueno! Cumplio con los requisitos que pedi y no hubieron problemas
+                                    en ningun momento.Muy bueno! Cumplio con los requisitos que pedi y no hubieron problemas en ningun momento.</p>
+
+                                <p class="card-text text-right "><small class="text-muted ">Hace 2 dias</small></p>
+                                <div class="text-right "><i class="fa fa-heart p-2 "></i> <i class="fa fa-reply p-2 "></i></div>
+                            </div>
+
+                        </div>
+                        <!---->
+                        <div class="media ">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded mr-3 cont-avatar rounded-pill ">
+                                <img src="img/avatar3.jpg " class="mr-3 img-fluid rounded-pill " alt="img-comment "></div>
+
+                            <div class="media-body shadow-lg p-3 mb-5 bg-white rounded talk-bubble tri-right left-top ">
+                                <h5 class="mt-0 text-left ">Maria Visgarra says:</h5>
+                                <p class="p-3 ">Gran trabajo! Totalmente satisfecho. He contratado sus servicios para la boda mi hermana y fue un lujo. Todas las fotos en alta calidad y entregado en tiempo y forma. 100%recomendable. Muy bueno! Cumplio con los requisitos
+                                    que pedi y no hubieron problemas en ningun momento.10 puntos. Cumplio con todas mis expectativas.</p>
+
+                                <p class="card-text text-right "><small class="text-muted ">Hace 2 semanas</small></p>
+                                <div class="text-right "><i class="fa fa-heart p-2 "></i> <i class="fa fa-reply p-2 "></i></div>
+                            </div>
+
+                        </div>
+                        <!---->
+                        <div class="media ">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded mr-3 cont-avatar rounded-pill ">
+                                <img src="img/avatar5.jpg " class="mr-3 img-fluid rounded-pill " alt="img-comment "></div>
+
+                            <div class="media-body shadow-lg p-3 mb-5 bg-white rounded talk-bubble tri-right left-top ">
+                                <h5 class="mt-0 text-left ">Andres Suarez says:</h5>
+                                <p class="p-3 ">Gran trabajo! Totalmente satisfecho. He contratado sus servicios para la boda mi hermana y fue un lujo. Todas las fotos en alta calidad y entregado en tiempo y forma. 100%recomendable. Muy bueno! Cumplio con los requisitos
+                                    que pedi y no hubieron problemas en ningun momento</p>
+
+                                <p class="card-text text-right "><small class="text-muted ">Hace 1 mes</small></p>
+                                <div class="text-right "><i class="fa fa-heart p-2 "></i> <i class="fa fa-reply p-2 "></i></div>
+                            </div>
+
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Row-->
+        <!--Fin Container-->
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------->
+    <!--FOOTER-->
+    <footer class="footer color-bg-sp color-sp3 justify-content-center">
+        <div class="container-fluid container-xl px-0 ">
+            <div class="row flex-row container-fluid">
+                <!--Columna 1 - Logo-->
+                <div class="col-12 col-md-3 p-3 text-center align-self-center ">
+                    <img class="img-fluid " width="100 " src="img/Logo-sin-full.png" alt="logo" />
+                    <div class="font-weight-bold pt-4 ">
+                        Service Place Tucumán
+                    </div>
+                </div>
+                <!--Redes-->
+                <div class="col-12 col-md-3 text-center py-4 order-2 align-self-center ">
+                    <ul class="list-inline d-flex justify-content-around ">
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-facebook "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-twitter " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-instagram " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-youtube " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-whatsapp " aria-hidden="true "></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Contacto-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center">
+                    <h5>Contacto</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>+54381-3840167</li>
+                        <li>serviceplace@gmail.com</li>
+                    </ul>
+                </div>
+                <!--Direccion-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center">
+                    <h5>Direccion</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>Av Siempreviva 742 - Springfield</li>
+                        <li>San Miguel de Tucumán</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small text-center pt-4 pb-1 ">
+                <i class="far fa-copyright "></i> Service Place - Todos los derechos reservados.
+            </div>
+        </div>
+
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>

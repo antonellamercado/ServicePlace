@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Place</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Codigo personalizado-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Logo-fondo-full.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<!------------------------------------------GALERIA DE SERVICIO------------------------------------------------------------------------------------------------------->
+
+<body class="color-bg-sp2 px-0 mx-0">
+    <!--HEADER-->
+    <header class="sticky-top h-20">
+        <nav class="row mx-0  navbar navbar-expand-md color-bg-sp color-sp3">
+
+            <div class="container-fluid container-xl px-0">
+
+
+                <!-- Login -->
+                <form class="form-inline my-lg-0 d-md-none ml-3">
+                    <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                </form>
+
+                <!-- Logo y nombre -->
+                <a class="navbar-brand mx-2 color-sp3" href="index.html">
+                    <img src="img/Logo-sin-full.png" width="30" height="30" alt=""> Service Place
+                </a>
+
+                <!-- Menú desplegable -->
+                <button class="navbar-toggler navbar-dark color-btn-sp2 navbar-toggler-left mr-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ol class="navbar-nav w-100 ml-3">
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="contactenos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown active-sp">
+                            <a class="nav-link dropdown-toggle color-sp3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categorias
+                    </a>
+                            <div class="dropdown-menu color-bg-sp color-border-sp" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#foto">Fotografos</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#catering">Catering</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#dj">Djs</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#wedding">Organización de eventos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-auto mr-2 d-none d-md-block">
+                            <form class="form-inline my-lg-0 ">
+                                <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                            </form>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <!--GALERIA DE SERVICIO-->
+    <div class="container-fluid container-xl px-0">
+        <!--Breadcrum-->
+        <div class="container body-c">
+            <ul class="breadcrumb color-bg-sp2">
+                <li><a class="color-sp" href="index.html">Home</a></li>
+                <li class="color-sp">Servicios</li>
+            </ul>
+            <!-- ---------------Primera fila----------------------- -->
+            <div class="container-fluid mb-3 text-center" id="foto">                
+                <span class="title-sp text-center">Fotografía</SPAN>
+            </div>
+
+            <div class="row justify-content-around mb-3 mt-3 mx-0">
+                <!--Card1-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/Salgado2.jpg" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">Fotógrafo influyente del periodismo moderno. Dueño de Magnum Photos, una de las agencias más famosas. Sus imágenes en blanco y negro se caracterizaban por tener composiciones excelentes .</p>
+                        </div>
+
+                        <a href="DetalleServicio.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Sebastiao Salgado</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/McCullin.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Las increíbles imágenes de la realidad de la guerra de Vietnam,convirtieron a Don Mcclunin en uno de los referentes más importantes de la época
+                            </p>
+                        </div>
+
+                        <a href="DetalleServicio2.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Don McCullin</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/Eggleston.jpg" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Combina su estilo con la saturación de color en sus imágenes impresas. Es recordado por ser uno de los fotógrafos que ayudó a que la fotografía de color sea aceptada como arte
+                            </p>
+                        </div>
+                        <a href="DetalleServicio3.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">William Eggleston</div>
+                        </a>
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/Leibovitz.jpg" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                es una de las retratistas más famosas de los últimos años. Su foto más famosa es el retrato de John Lennon tomada el mismo día de su muerte.
+                            </p>
+                        </div>
+
+                        <a href="DetalleServicio4.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Annie Leibovitz</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---------------Segunda fila----------------------- -->
+            <div class="container-fluid mb-3 text-center" id="catering">                
+                <span class="title-sp text-center">Catering</SPAN>
+            </div>
+
+            <div class="row justify-content-around mb-3 mt-3 mx-0">
+
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/arielPacheco.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Con más de 20 años de trayectoria en el rubro gastronómico, Ariel Pacheco Catering les asegura que su celebración de su casamiento se convertirá en un evento único. </p>
+                        </div>
+
+                        <a href="DetalleServicio5.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Ariel Pacheco catering</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/maiTai.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Mai Tai Barras es una compañía que lleva desde el año 2013 entregando servicios de coctelería profesional para casamientos y todo tipo de eventos sociales. . </p>
+                        </div>
+
+                        <a href="DetalleServicio6.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Mai Tai Barras</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/cocatelesTuc.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Cóctel de bienvenida para bodas, Cumpleaños de XV y todo tipo de eventos sociales, deportivos o empresariales. </p>
+                        </div>
+
+                        <a href="DetalleServicio7.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Cocteles Tucuman </div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/santaJulia.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Picadas artesanales premium para tus eventos, 20-40-60 personas. </p>
+                        </div>
+
+                        <a href="DetalleServicio8.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Santa Julia</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---------------Tercera fila----------------------- -->
+            <div class="container-fluid mb-3 text-center" id="dj">                
+                <span class="title-sp text-center">Djs</SPAN>
+            </div>
+
+            <div class="row justify-content-around mb-3 mt-3 mx-0">
+
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <!--Card1-->
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/djHat.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Una correcta selección musical es algo determinante a la hora de celebrar un evento tan importante como su casamiento. Por eso, es necesario contar con un especialista en el tema como DJ Hat! </p>
+                        </div>
+
+                        <a href="DetalleServicio9.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Dj Hat</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/djAriel.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                DJ Ariel Mainieri es una empresa de producción de eventos enfocada en darles excelentes soluciones para que su casamiento sea todo lo que soñaron. </p>
+                        </div>
+
+                        <a href="DetalleServicio10.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Dj Ariel Mainieri</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/djAle.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Para que el ambiente de su casamiento sea de festividad total, DJ Ale D se pone a su disposición para ofrecerles momentos irrepetibles. </p>
+                        </div>
+
+                        <a href="DetalleServicio11.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Dj Ale D</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/djiku.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                ICK DJ's es una empresa dedicada al sonido e iluminación para casamientos, cumpleaños, fiestas y eventos publicitarios. </p>
+                        </div>
+
+                        <a href="DetalleServicio12.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp"> ICK DJ's</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---------------Cuarta fila----------------------- -->
+            <div class="container-fluid mb-3 text-center" id="wedding">                
+                <span class="title-sp text-center">Eventos</SPAN>
+            </div>
+
+            <div class="row justify-content-around mb-3 mt-3 mx-0">
+                <!--Card1-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/marcosOliva.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Marcos Oliva Eventos es un experto en coordinación de casamientos que estará con ustedes desde el inicio de todo el proceso.
+                            </p>
+                        </div>
+
+                        <a href="DetalleServicio13.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Marcos Oliva Eventos</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/crecerEventos.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Es una empresa dedicada a brindar un servicio integral en organización de eventos.
+                            </p>
+                        </div>
+
+                        <a href="DetalleServicio14.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Crecer Eventos</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/machado.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Machado & Leites organiza los más exquisitos casamiento, siempre con un toque de originalidad que los convierte en únicos. </p>
+                        </div>
+
+                        <a href="DetalleServicio15.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">Machado & Leites</div>
+                        </a>
+
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="col-12 col-sm-6 col-lg-3 px-0 mb-4">
+                    <div class="card h-100 mx-3 opacity-0h5 cta">
+                        <div class="card-img">
+                            <img src="img/sheEventos.png" class="card-img-top card-img-top-sp">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text color-sp4">
+                                Si han decidido dar el gran paso, pero no saben cómo organizar su casamiento, en SH Eventos responderán todos sus interrogantes. </p>
+                        </div>
+
+                        <a href="DetalleServicio16.html">
+                            <div class="card-footer text-center color-bg-sp color-sp3 color-form-sp hover-sp">She Eventos</div>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <!---------------------------------------------------------------------------------------------------------->
+    <!--FOOTER-->
+    <footer class="footer color-bg-sp color-sp3 justify-content-center">
+        <div class="container-fluid container-xl px-0 ">
+            <div class="row flex-row container-fluid">
+                <!--Columna 1 - Logo-->
+                <div class="col-12 col-md-3 p-3 text-center align-self-center ">
+                    <img class="img-fluid " width="100 " src="img/Logo-sin-full.png" alt="logo" />
+                    <div class="font-weight-bold pt-4 ">
+                        Service Place Tucumán
+                    </div>
+                </div>
+                <!--Redes-->
+                <div class="col-12 col-md-3 text-center py-4 order-2 align-self-center ">
+                    <ul class="list-inline d-flex justify-content-around ">
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-facebook "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-twitter " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-instagram " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-youtube " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3" href="# "><i class="fab fa-whatsapp " aria-hidden="true "></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Contacto-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center">
+                    <h5>Contacto</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>+54381-3840167</li>
+                        <li>serviceplace@gmail.com</li>
+                    </ul>
+                </div>
+                <!--Direccion-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center">
+                    <h5>Direccion</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>Av Siempreviva 742 - Springfield</li>
+                        <li>San Miguel de Tucumán</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small text-center pt-4 pb-1 ">
+                <i class="far fa-copyright "></i> Service Place - Todos los derechos reservados.
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Codigo personalizado-->
+    <link rel="icon" href="img/Logo-fondo-full.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+
+<body class="color-bg-sp2 px-0">
+    <!--HEADER-->
+    <header class="sticky-top h-20">
+        <nav class="row mx-0  navbar navbar-expand-md color-bg-sp color-sp3">
+
+            <div class="container-fluid container-xl px-0">
+
+
+                <!-- Login -->
+                <form class="form-inline my-lg-0 d-md-none ml-3">
+                    <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                </form>
+
+                <!-- Logo y nombre -->
+                <a class="navbar-brand mx-2 color-sp3" href="index.html">
+                    <img src="img/Logo-sin-full.png" width="30" height="30" alt=""> Service Place
+                </a>
+
+                <!-- Menú desplegable -->
+                <button class="navbar-toggler navbar-dark color-btn-sp2 navbar-toggler-left mr-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ol class="navbar-nav w-100 ml-3">
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="sobreNosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-sp3" href="contactenos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color-sp3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
+                </a>
+                            <div class="dropdown-menu color-bg-sp color-border-sp" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#foto">Fotografos</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#catering">Catering</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#dj">Djs</a>
+                                <a class="dropdown-item color-sp3" href="galeriadeservicio.html#wedding">Organización de eventos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-auto mr-2 d-none d-md-block">
+                            <form class="form-inline my-lg-0 ">
+                                <a class="btn color-btn-sp my-sm-0 " type="submit" href="login.html">Login</a>
+                            </form>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="container-fluid container-xl px-0">
+        <!--Breadcrum-->
+        <div class="container-fluid p-0 m-0">
+            <ul class="breadcrumb color-bg-sp2">
+                <li><a class="color-sp" href="index.html">Home</a></li>
+                <li class="color-sp">Login</li>
+            </ul>
+            <div class="row px-0 mx-0">
+                <!--Imagen-->
+                <div class="col-12 col-md-6 px-0">
+                    <div class="card border-0">
+                        <img class="card-img-bottom img-fluid" src="img/login.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-white display-4 title-sp">Service Place</h4>
+                            <p class="card-text text-white">Todos los servicios - Una sola pagina.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Formulario-->
+                <div class="col-12 col-md-6 mt-2 mb-3 px-3">
+                    <h2 class="color-sp-2 title-sp text-center">Registrate!!!</h2>
+                    <br>
+                    <br>
+                    <form action="/action_page.php " class="needs-validation" novalidate>
+                        <div class="form-group ">
+                            <label for="uname ">Usuario:</label>
+                            <input type="text " class="form-control " id="uname " placeholder="Enter username " name="uname " required>
+                            <div class="valid-feedback ">Valid.</div>
+                            <div class="invalid-feedback ">Por favor complete este campo.</div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="pwd ">Contraseña:</label>
+                            <input type="password" class="form-control " id="pwd " placeholder="Enter password " name="pswd " required>
+                            <div class="valid-feedback ">Valid.</div>
+                            <div class="invalid-feedback ">Por favor complete este campo</div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="pwd ">Repita contraseña:</label>
+                            <input type="password" class="form-control " id="pwd " placeholder="Enter password " name="pswd " required>
+                            <div class="valid-feedback ">Valid.</div>
+                            <div class="invalid-feedback ">Por favor complete este campo</div>
+                        </div>
+                        <br>
+
+                        <a href="#exampleModal"><span class="text-muted ml-auto" data-toggle="modal" data-target="#RecuperaContraseña">Olvidaste tu contraseña?</span></a>
+                        <br><br><br>
+                        <div class="row flex-nowrap  px-0 justify-content-between">
+                            <a href="#" type="submit" class="btn color-btn-sp cta">Ingresar</a>
+                            <a class="btn btn-primary cta mx-1" target="_blank" href="https://www.facebook.com/">Ingresar con <i class="fab fa-facebook "></i></a>
+                            <a class="btn btn-danger cta mx-1" target="_blank" href="https://www.google.com/intl/es-419/gmail/about/">Ingresar con <i class="fab fa-google "></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!--Modal-->
+            <div class="modal fade w-100" id="RecuperaContraseña" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- <button type="button" data-dismiss="modal">&times;</button> -->
+                            <h4 class="modal-title h4 color-sp2">Recupera tu contraseña</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="small color-sp2">Para recuperar la contraseña ingresa el email con el que te registraste:</h4>
+                            <input type="text" placeholder="Email">
+                            <a href="login.html" type="button" class="btn color-btn-sp cta" data-dismiss="modal">Enviar</a>
+                            <div class="modal-footer">
+                                <a href="login.html" type="button" class="btn btn-light cta" data-dismiss="modal">Cerrar</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------>
+    <!--FOOTER-->
+    <footer class="footer color-bg-sp color-sp3 justify-content-center ">
+        <div class="container-fluid container-xl px-0 ">
+            <div class="row flex-row container-fluid ">
+                <!--Columna 1 - Logo-->
+                <div class="col-12 col-md-3 p-3 text-center align-self-center ">
+                    <img class="img-fluid " width="100 " src="img/Logo-sin-full.png " alt="logo " />
+                    <div class="font-weight-bold pt-4 ">
+                        Service Place Tucumán
+                    </div>
+                </div>
+                <!--Redes-->
+                <div class="col-12 col-md-3 text-center py-4 order-2 align-self-center ">
+                    <ul class="list-inline d-flex justify-content-around ">
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3 " href="# "><i class="fab fa-facebook "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3 " href="# "><i class="fab fa-twitter " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3 " href="# "><i class="fab fa-instagram " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3 " href="# "><i class="fab fa-youtube " aria-hidden="true "></i></a>
+                        </li>
+                        <li class="list-inline-item h2 ">
+                            <a class="color-sp3 " href="# "><i class="fab fa-whatsapp " aria-hidden="true "></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Contacto-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center ">
+                    <h5>Contacto</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>+54381-3840167</li>
+                        <li>serviceplace@gmail.com</li>
+                    </ul>
+                </div>
+                <!--Direccion-->
+                <div class="col-12 col-md-3 p-3 order-1 text-center d-flex flex-column align-self-center ">
+                    <h5>Direccion</h5>
+                    <div class="border-bottom w-25 align-self-center "></div>
+
+                    <ul class="list-unstyled pl-1 ">
+                        <li>Av Siempreviva 742 - Springfield</li>
+                        <li>San Miguel de Tucumán</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small text-center pt-4 pb-1 ">
+                <i class="far fa-copyright "></i> Service Place - Todos los derechos reservados.
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- JS para validacion de campos -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
+
+
+
+    <body>
+
+
+</html>

@@ -1,0 +1,410 @@
+/**************************************************/
+
+
+/*Transparecia en slider*/
+
+.transparencia-sp {
+    background-color: #00293C;
+    content: "";
+    height: 30%;
+    position: absolute;
+    opacity: 0.4;
+    bottom: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/*Breadcrum*/
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #00293C;
+    content: ">\00a0";
+}
+
+
+/*Sombra en botones*/
+
+.cta:hover {
+    box-shadow: 0px 0px 9px black;
+}
+
+.cta-shadow-error:hover {
+    box-shadow: 0px 0px 12px yellow;
+}
+
+
+/*Ajuste tamaño avatar*/
+
+.cont-avatar {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.img-error {
+    background-image: url("img/error2.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100%;
+    /* width: 100%; */
+    background-size: cover;
+    /*max-height: 500px;
+    /**height: 100vh;
+    width: 100vw;**/
+}
+
+
+/*Ajuste tamaño entradas*/
+
+.cont-img {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 500px;
+}
+
+.alto-serv {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.size-card {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/*Ajuste tamaño galeria servicio*/
+
+.cont-serv {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+/*Caja comentarios*/
+
+
+/* CSS talk bubble */
+
+.talk-bubble {
+    margin: 6px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: auto;
+    background-color: lightyellow;
+}
+
+
+/* Right triangle placed top left flush. */
+
+.tri-right.border.left-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #666 transparent transparent transparent;
+}
+
+.tri-right.left-top:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 22px solid;
+    border-color: white transparent transparent transparent;
+}
+
+
+/* Right triangle placed top right flush. */
+
+.tri-right.border.right-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -40px;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #666 transparent transparent transparent;
+}
+
+.tri-right.right-top:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -20px;
+    top: 0px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: lightyellow transparent transparent transparent;
+}
+
+
+/* talk bubble contents */
+
+.talktext {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+
+/*Alto del header*/
+
+
+/* .head-height {
+    height: 50px;
+} */
+
+
+/*Ajuste tamaño de slider*/
+
+.cont-slider {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+}
+
+
+/* Color ServicePlace */
+
+.color-sp {
+    color: #F62A00;
+    font-family: 'Trebuchet MS';
+}
+
+.color-sp2 {
+    color: #00293C;
+    font-family: 'Trebuchet MS';
+}
+
+.color-sp3 {
+    color: #F1F3CE;
+    font-family: 'Trebuchet MS';
+}
+
+.color-bg-sp {
+    background-color: #00293C;
+}
+
+.color-bg-sp2 {
+    background-color: #F1F3CE;
+}
+
+.color-bg-sp3 {
+    background-color: #1e656d;
+}
+
+.color-border-sp {
+    border-color: #00293C;
+}
+
+.color-btn-sp {
+    background-color: #F62A00;
+    border-color: #F62A00;
+    color: #F1F3CE;
+}
+
+.color-btn-sp2 {
+    background-color: #1e656d;
+}
+
+.color-form-sp {
+    border-color: #1e656d !important;
+}
+
+* {
+    margin: 0;
+}
+
+.textosp {
+    font-size: 1em;
+}
+
+
+/* Opacidad */
+
+.opacity-0h5 {
+    opacity: 0.9!important;
+    transition: opacity .25s ease-in-out!important;
+    -moz-transition: opacity .25s ease-in-out!important;
+    -webkit-transition: opacity .25s ease-in-out!important;
+}
+
+.opacity-0h5:hover {
+    opacity: 1!important;
+}
+
+.hover-sp:hover {
+    background-color: #1e656d;
+    border-color: #F1F3CE;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.card-img-sp {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* .color-bd{
+    border-color: #9057D8;
+    /* border-width: 0.08rem; */
+
+
+/*Efecto para galeria de imagenes*/
+
+.efect {
+    border: 0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.efect:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 4;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.6);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.6);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.6);
+    transition: all 200ms ease-in;
+    transform: scale(1.6);
+}
+
+
+/*Efecto titulos*/
+
+.title-sp {
+    position: relative;
+    font-family: 'Montserrat Alternates';
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.title-sp::after{
+    background-color: #1e656d;
+    content: "";
+    height: 20%;
+    position: absolute;
+    right: -5%;
+    opacity: 0.3;
+    top: 40%;
+    width: 110%;
+    z-index: -1;
+}
+
+.active-sp {
+    text-shadow: 1px 1px 3px white;
+    ;
+}
+
+
+/*****************************************MEDIAS QUERYS************************************/
+
+
+/*Reorganizar elementos en el header cuando se navega en un dispositivo medio o largo*/
+
+@media (max-width:768px) {
+    #logo {
+        order: 2;
+    }
+    #menu {
+        order: 1;
+    }
+    #login {
+        order: 3
+    }
+}
+
+
+/* Ajuste de imagen */
+
+.card-img-top-sp {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+@media (max-width:992px) {
+    .card-img-top-sp {
+        height: 23vw;
+    }
+}
+
+@media (max-width:768px) {
+    .card-img-top-sp {
+        height: 23vw;
+    }
+    .collapse-sp {
+        margin-left: 1em;
+    }
+    .login-sp {
+        align-self: flex-start;
+    }
+    .text-error {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:576px) {
+    .card-img-top-sp {
+        height: 55vw;
+    }
+    .breadcrumb {
+        font-size: 0.75em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    .cont-avatar {
+        width: 25%;
+    }
+    .text-error {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width:768px) {
+    .collapse-sp {
+        margin-left: -3em;
+    }
+}
+
+
+/*Ajuste tamaño fuente para comentarios*/
