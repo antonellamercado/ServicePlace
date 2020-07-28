@@ -317,12 +317,22 @@ a:active {
     font-weight: bold;
 }
 
+.title-sp::after{
+    background-color: #1e656d;
+    content: "";
+    height: 20%;
+    position: absolute;
+    right: -5%;
+    opacity: 0.3;
+    top: 40%;
+    width: 110%;
+    z-index: -1;
+}
 
 .active-sp {
     text-shadow: 1px 1px 3px white;
     ;
 }
-
 
 
 /*****************************************MEDIAS QUERYS************************************/
@@ -339,11 +349,6 @@ a:active {
     }
     #login {
         order: 3
-    }
-    /* Margenes pagina de contacto */
-    .margen-contacto-sp{
-        margin-left: .5em;
-        margin-right: .5em;
     }
 }
 
@@ -392,15 +397,6 @@ a:active {
     }
     .text-error {
         font-size: 0.75em;
-    }
-    .transparencia-sp{
-        height: 40%;
-    }
-}
-
-@media (max-width:450px) {
-    .transparencia-sp{
-        height: 50%;
     }
 }
 
